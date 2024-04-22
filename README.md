@@ -2,8 +2,4 @@
 
 ## Developers
 -Alexei Cichon
- 
-## Developer
--
--
-- Jose G Torres
+-Jose G Torres
