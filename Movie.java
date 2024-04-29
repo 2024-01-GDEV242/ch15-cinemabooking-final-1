@@ -5,29 +5,40 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Movie
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
+public class Movie {
+    private String movieName;
+    private String movieRD; //RD = ReleaseDate
+    private double runTime;
     /**
      * Constructor for objects of class Movie
      */
-    public Movie()
-    {
-        // initialise instance variables
-        x = 0;
+    public Movie() {
+        movieName = "Name";
+        movieRD = "Date";
+        runTime = 2.5; //in hours
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public Movie(String movieName, String movieDate, double movieTime) {
+        this.movieName = movieName;
+        movieRD = movieDate;
+        runTime = movieTime; //in hours
+    }
+    public String getMovieName() {
+        return movieName;
+    }
+    public String getMovieDate() {
+        return movieRD;
+    }
+    public double getRunTime() {
+        return runTime;
+    }
+    public void changeDate(String movieDate) {
+        movieRD = movieDate;
+    }
+    public void changeName(String movieName) {
+        this.movieName = movieName;
+    }
+    public void changeTime(double movieTime) {
+        runTime = movieTime;
     }
 }

@@ -5,29 +5,33 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Seat
-{
+public class Seat {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private int rowNum;
+    private int colNum;
+    private boolean taken = false;
     /**
      * Constructor for objects of class Seat
      */
-    public Seat()
-    {
-        // initialise instance variables
-        x = 0;
+    public Seat(int rowNum, int colNum) {
+        this.rowNum = rowNum;
+        this.colNum = colNum;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public int getSeatRow() {
+        return rowNum;
+    }
+    public int getSeatCol() {
+        return colNum;
+    }
+    public boolean isBooked() {
+        return taken;
+    }
+    public void bookSeat(Theater theater) {
+        theater.seatsInUse++;
+        taken = true;
+    }
+    public void removeBooking(Theater theater) {
+        theater.seatsInUse++;
+        taken = false;
     }
 }
