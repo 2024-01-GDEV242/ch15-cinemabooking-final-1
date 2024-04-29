@@ -7,6 +7,7 @@ dependency2.to=Theater
 dependency2.type=UsesDependency
 editor.fx.0.height=678
 editor.fx.0.width=814
+<<<<<<< Updated upstream
 editor.fx.0.x=348
 editor.fx.0.y=0
 objectbench.height=93
@@ -21,12 +22,28 @@ package.frame.height=686
 package.frame.width=1294
 package.numDependencies=2
 package.numTargets=8
+=======
+editor.fx.0.x=240
+editor.fx.0.y=24
+objectbench.height=92
+objectbench.width=451
+package.divider.horizontal=0.599791013584117
+package.divider.vertical=0.8011182108626198
+package.editor.height=395
+package.editor.width=675
+package.editor.x=676
+package.editor.y=95
+package.frame.height=600
+package.frame.width=800
+package.numDependencies=0
+package.numTargets=2
+>>>>>>> Stashed changes
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 readme.height=60
 readme.name=@README
-readme.width=48
+readme.width=49
 readme.x=10
 readme.y=10
 target1.height=70
