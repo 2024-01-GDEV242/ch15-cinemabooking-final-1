@@ -1,9 +1,10 @@
 import java.util.*;
 /**
- * Write a description of class Movies here.
+ * The objects that are in this class represent the objects that are needed for the movie to be created to be added
+ * to the movie list for theaters
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Alexei C, Jose T, Jacob R
+ * @version (5/2/2024)
  */
 public class makeMovie {
     /**
